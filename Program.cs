@@ -6,9 +6,6 @@ namespace TryParse {
             int result;
             if (!int.TryParse(s: Console.ReadLine(), result: out result))
                 Console.Write(value: "Input a number "); 
-            else {
-                Console.WriteLine(result);
-            }
         }
 
         public static bool TryParse(string s, out int result) {
